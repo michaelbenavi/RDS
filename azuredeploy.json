@@ -484,10 +484,7 @@
           },
           "virtualNetworkAddressRange": {
             "value": "[variables('vnetAddressRange')]"
-          },
-          "subnets": {
-            "value": "[variables('subnets')]"
-          },
+          },         
           "dnsServerAddress": {
             "value": [
               "[variables('dnsServerPrivateIp')]"
