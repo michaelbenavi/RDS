@@ -87,7 +87,7 @@
     }
   },
   "variables": {
-    "adAssetLocation": "D:\\Malam\\Biosense\\Cartoweb\\ChinaCloud\\",
+    "adAssetLocation": "https://raw.githubusercontent.com/michaelbenavi/RDS/main/",
     "adVMSize": "Standard_DS2_v2",
     "adVnetName": "[concat('ADVNET',resourceGroup().name)]",
     "adSubnetName": "[concat('ADStaticSubnet',resourceGroup().name)]",
@@ -130,7 +130,7 @@
     "subnetAddressRange": "10.0.0.0/24",
     "dnsServerPrivateIp": "10.0.0.4",
     "subnet-id": "[concat(resourceId('Microsoft.Network/virtualNetworks', variables('adVnetName')),'/subnets/', variables('adSubnetName'))]",
-    "assetLocation": "D:\\Malam\\Biosense\\Cartoweb\\ChinaCloud\\",
+    "assetLocation": "https://raw.githubusercontent.com/michaelbenavi/RDS/main/",
     "nsgName": "RDSNsg",
     "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
     "subnets": [
